@@ -1,0 +1,31 @@
+#reviews {
+	max-height: 800px;
+	flex-direction: column;
+	align-content: center;
+	padding: 20rem auto 0;
+}
+
+#reviews footer {
+	text-align: center;
+  font-weight: bold;
+}
+
+.quote p {
+  max-height: 300px;
+  font-family: 'Montserrat', sans-serif;
+	font-weight: light;
+  text-align: center;
+	margin: 10px 50px 20px;
+	font-size: 2.2vmin;
+	text-align: center;
+	line-height: 1.4em;
+}
+
+@media (max-width: 600px) {
+	#reviews p {
+    font-size: 3vmin;
+		padding: none;
+		margin: none;
+		line-height: none;
+	}
+}

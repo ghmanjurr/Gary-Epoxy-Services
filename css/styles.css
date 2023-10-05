@@ -1,0 +1,121 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links a {
+    text-decoration:solid;
+    color: #000000;
+    
+    margin: 0 15px;
+}
+
+section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#hero {
+    text-align: center;
+    background-image: url('epoxy-floor.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about {
+    background-color: #fff;
+}
+
+#services {
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Contact form styles */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.image {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
